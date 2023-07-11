@@ -29,7 +29,7 @@
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link btn-explore" target="_blank" href="#">Download CV</a>
+                        <a class="nav-link btn-explore" target="_blank" href="https://drive.google.com/file/d/1Qd86OKq2SQM_wAvvA2vmo0ZBCEe1V1T8/view?usp=drive_link">Download CV</a>
                     </li>
                 </ul>
             </div>
