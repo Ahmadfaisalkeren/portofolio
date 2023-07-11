@@ -110,7 +110,7 @@
                 });
             });
 
-            $('body').on('click', '.editSkills', function() {
+            $('body').on('click', '.editSkill', function() {
                 var skills_id = $(this).data('id');
                 $.get("{{ route('skills.index') }}" + '/' + skills_id + '/edit', function(data) {
                     $('#modelHeading').html("Edit Skills");
