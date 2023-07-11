@@ -25,9 +25,9 @@
             @foreach ($skill as $item)
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
                     <div class="box w-100 card-skills" data-aos="fade-up" data-aos-delay="200">
-                        <a href="{{ $item->link }}" target="_blank">
+                        <div class="row">
                             <img class="mx-auto mt-3 img-skill d-block" src="{{ url(Storage::url($item->image)) }}" alt="">
-                        </a>
+                        </div>
                         <h5 class="text-center">{{ $item->skill }}</h5>
                         <p class="text-center text-secondary">{{ $item->skill_detail }}</p>
                     </div>
